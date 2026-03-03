@@ -3,7 +3,7 @@ import { ref, onMounted, onBeforeUnmount } from 'vue'
 import { Link } from '@inertiajs/vue3'
 import AppLogo from '@/components/AppLogo.vue'
 import type { BreadcrumbItem } from '@/types'
-import startNow from '@/routes/start-now'
+import startNow from '@/routes/start-now/index'
 
 
 

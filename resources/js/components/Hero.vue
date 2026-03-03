@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import startNow from '@/routes/start-now';
+import startNow from '@/routes/start-now/index'
 import { Link } from '@inertiajs/vue3'
 
 const heroBg = "url('/images/hero-area.svg')"
