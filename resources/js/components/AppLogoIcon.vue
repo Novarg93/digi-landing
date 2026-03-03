@@ -13,5 +13,5 @@ defineProps<Props>();
 </script>
 
 <template>    
-    <img class="w-50" src="/images/logo.png" alt="">
+    <img class="w-16" src="/favicon.ico" alt="Company Logo">
 </template>

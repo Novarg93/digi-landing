@@ -14,8 +14,11 @@ import {
     <div class="container mx-auto px-3">
       <div class="w-full px-3">
         <div class="mb-12 text-center">
-          <h2 class="text-3xl font-bold text-gray-800">Our Services</h2>
-          <span class="inline-block h-0.5 w-16 bg-red-500"></span>
+          <h2 class="text-3xl font-bold text-gray-800">What Talisman-Pay delivers</h2>
+          <p class="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-gray-400">
+            Everything you need to accept payments, manage settlements, and send payouts — built for scale.
+          </p>
+          <span class="mt-4 inline-block h-0.5 w-16 bg-red-500"></span>
         </div>
       </div>
 
@@ -26,9 +29,10 @@ import {
             <div class="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full border border-gray-100 bg-white text-red-500 transition duration-200 group-hover:bg-red-500 group-hover:text-white">
               <Settings class="h-8 w-8" />
             </div>
-            <h3 class="mb-4 text-md font-semibold uppercase text-gray-800">EASY TO USED</h3>
+            <h3 class="mb-4 text-md font-semibold uppercase text-gray-800">Card Processing</h3>
             <p class="text-sm leading-relaxed text-gray-400">
-              Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida.
+              Accept card payments with smooth checkout flows, smart routing, and clear reporting — optimized for
+              conversion.
             </p>
           </div>
         </div>
@@ -39,9 +43,10 @@ import {
             <div class="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full border border-gray-100 bg-white text-red-500 transition duration-200 group-hover:bg-red-500 group-hover:text-white">
               <TrendingUp class="h-8 w-8" />
             </div>
-            <h3 class="mb-4 text-md font-semibold uppercase text-gray-800">AWESOME DESIGN</h3>
+            <h3 class="mb-4 text-md font-semibold uppercase text-gray-800">Flexible Settlements</h3>
             <p class="text-sm leading-relaxed text-gray-400">
-              Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida.
+              Settle in multiple currencies, simplify reconciliation, and keep full control over fees, timings, and
+              payout schedules.
             </p>
           </div>
         </div>
@@ -52,9 +57,10 @@ import {
             <div class="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full border border-gray-100 bg-white text-red-500 transition duration-200 group-hover:bg-red-500 group-hover:text-white">
               <Users class="h-8 w-8" />
             </div>
-            <h3 class="mb-4 text-md font-semibold uppercase text-gray-800">EASY TO CUSTOMIZE</h3>
+            <h3 class="mb-4 text-md font-semibold uppercase text-gray-800">Mass Payouts</h3>
             <p class="text-sm leading-relaxed text-gray-400">
-              Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida.
+              Pay partners, creators, vendors, or customers at scale — automated, trackable, and built for operational
+              speed.
             </p>
           </div>
         </div>
@@ -65,9 +71,9 @@ import {
             <div class="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full border border-gray-100 bg-white text-red-500 transition duration-200 group-hover:bg-red-500 group-hover:text-white">
               <Layers class="h-8 w-8" />
             </div>
-            <h3 class="mb-4 text-md font-semibold uppercase text-gray-800">UI/UX DESIGN</h3>
+            <h3 class="mb-4 text-md font-semibold uppercase text-gray-800">Local Payment Methods</h3>
             <p class="text-sm leading-relaxed text-gray-400">
-              Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida.
+              Expand globally with region-preferred payment options and tailored checkout experiences for local markets.
             </p>
           </div>
         </div>
@@ -78,9 +84,10 @@ import {
             <div class="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full border border-gray-100 bg-white text-red-500 transition duration-200 group-hover:bg-red-500 group-hover:text-white">
               <Smartphone class="h-8 w-8" />
             </div>
-            <h3 class="mb-4 text-md font-semibold uppercase text-gray-800">APP DEVELOPMENT</h3>
+            <h3 class="mb-4 text-md font-semibold uppercase text-gray-800">Merchant Dashboard</h3>
             <p class="text-sm leading-relaxed text-gray-400">
-              Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida.
+              Real-time analytics, transaction history, exports, and settlement tracking — everything in one clean
+              interface.
             </p>
           </div>
         </div>
@@ -91,13 +98,13 @@ import {
             <div class="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full border border-gray-100 bg-white text-red-500 transition duration-200 group-hover:bg-red-500 group-hover:text-white">
               <Rocket class="h-8 w-8" />
             </div>
-            <h3 class="mb-4 text-md font-semibold uppercase text-gray-800">USER FRIENDLY INTERFACE</h3>
+            <h3 class="mb-4 text-md font-semibold uppercase text-gray-800">Fast Integration</h3>
             <p class="text-sm leading-relaxed text-gray-400">
-              Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida.
+              Integrate via API and webhooks, go live quickly, and scale without rewrites — from first payment to high
+              volume.
             </p>
           </div>
         </div>
-
       </div>
     </div>
   </section>

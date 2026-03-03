@@ -4,6 +4,7 @@ namespace App\Http\Middleware;
 
 use Illuminate\Http\Request;
 use Inertia\Middleware;
+use App\Models\LegalPage;
 
 class HandleInertiaRequests extends Middleware
 {
@@ -41,7 +42,21 @@ class HandleInertiaRequests extends Middleware
             'auth' => [
                 'user' => $request->user(),
             ],
+            'flash' => fn() => [
+                'success' => $request->session()->get('success'),
+                'error'   => $request->session()->get('error'),
+            ],
             'sidebarOpen' => ! $request->hasCookie('sidebar_state') || $request->cookie('sidebar_state') === 'true',
+            'legals' => fn() => LegalPage::query()
+                ->select(['title', 'code'])
+                ->where('is_active', true)
+                ->orderBy('sort')
+                ->get()
+                ->map(fn(LegalPage $p) => [
+                    'title' => $p->title,
+                    'href'  => route('legal.show', ['code' => $p->code]),
+                ])
+                ->values(),
         ];
     }
 }

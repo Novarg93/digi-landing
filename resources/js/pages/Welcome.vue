@@ -28,9 +28,9 @@ import Contact from '@/components/Contact.vue';
     <Services />
     <About />
     <Features />
-    <Team />
-    <Pricing />
-    <Testimonials />
+    <!-- <Team /> -->
+    <!-- <Pricing /> -->
+    <!-- <Testimonials /> -->
     <CTA />
     <Contact />
     </AppHeaderLayout>
