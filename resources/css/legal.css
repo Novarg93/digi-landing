@@ -1,0 +1,166 @@
+/* ================= LEGAL ================= */
+
+.legal h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111827; /* dark heading */
+}
+
+.legal h3 {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.legal p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: #374151; /* main readable text */
+}
+
+@media (min-width: 768px) {
+    .legal p { font-size: 1.125rem; }
+}
+
+@media (min-width: 1024px) {
+    .legal p { font-size: 1.25rem; }
+}
+
+.legal span {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: #4b5563;
+}
+
+.legal img {
+    margin-bottom: 1rem;
+}
+
+.legal blockquote {
+    margin-bottom: 1rem;
+    color: #4b5563;
+    border-left: 4px solid #e5e7eb;
+    padding-left: 1rem;
+}
+
+.legal pre {
+    margin-bottom: 1rem;
+    background: #f3f4f6;
+    padding: 1rem;
+    border-radius: 6px;
+    color: #111827;
+}
+
+.legal a {
+    color: #dc2626; /* red-600 */
+    text-decoration: underline;
+}
+
+.legal a:hover {
+    text-decoration: none;
+    color: #b91c1c; /* darker red */
+}
+
+.legal ol,
+.legal ul {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    color: #374151;
+}
+
+.legal ol li {
+    margin-bottom: 0.75rem;
+    list-style: decimal inside;
+    font-weight: 500;
+}
+
+.legal ul li {
+    margin-bottom: 0.75rem;
+    list-style: disc inside;
+}
+
+
+/* ================= PRODUCT ================= */
+
+.product h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111827;
+}
+
+.product h3 {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.product p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: #374151;
+}
+
+@media (min-width: 768px) {
+    .product p { font-size: 1.125rem; }
+}
+
+@media (min-width: 1024px) {
+    .product p { font-size: 1.25rem; }
+}
+
+.product span {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: #4b5563;
+}
+
+.product blockquote {
+    margin-bottom: 1rem;
+    color: #4b5563;
+    border-left: 4px solid #e5e7eb;
+    padding-left: 1rem;
+}
+
+.product pre {
+    margin-bottom: 1rem;
+    background: #f3f4f6;
+    padding: 1rem;
+    border-radius: 6px;
+    color: #111827;
+}
+
+.product a {
+    color: #dc2626;
+    text-decoration: underline;
+}
+
+.product a:hover {
+    text-decoration: none;
+    color: #b91c1c;
+}
+
+.product ol,
+.product ul {
+    color: #374151;
+}
+
+.product ol li {
+    margin-bottom: 0.75rem;
+    list-style: decimal inside;
+    font-weight: 500;
+}
+
+.product ul li {
+    margin-bottom: 0.75rem;
+    list-style: disc inside;
+}
+
+
+/* ================= BLOG ================= */
+
+.blog-short-description p {
+    font-size: 14px;
+    color: #4b5563;
+}

@@ -27,7 +27,7 @@ const props = defineProps<{
 
         <div class="prose prose-sm max-w-none mt-8">
           
-          <div v-html="props.page.content ?? ''"></div>
+          <div class="legal" v-html="props.page.content ?? ''"></div>
         </div>
       </div>
     </section>
