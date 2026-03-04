@@ -76,29 +76,19 @@ const form = useForm({
 
             <div class="space-y-5 text-sm text-gray-600">
               <div>
-                <p class="font-semibold text-gray-800">Company Name</p>
-                <p>Talisman-Pay Ltd.</p>
+                <p class="font-semibold text-gray-800">What happens next</p>
+                <p>We review your message and business model <br>
+                  We clarify geography, risk profile and volumes <br>
+                  We propose routing, methods and a tailored offer</p>
               </div>
 
               <div>
-                <p class="font-semibold text-gray-800">Registered Address</p>
-                <p>Placeholder Street 12<br />London, United Kingdom</p>
+                <p class="font-semibold text-gray-800">Security & compliance</p>
+                <p>We can align onboarding requirements to your region and industry. <br> Share any compliance
+                  constraints up front.</p>
               </div>
 
-              <div>
-                <p class="font-semibold text-gray-800">Support Email</p>
-                <p>support@talisman-pay.com</p>
-              </div>
 
-              <div>
-                <p class="font-semibold text-gray-800">Business Hours</p>
-                <p>Monday – Friday<br />09:00 – 18:00 (GMT)</p>
-              </div>
-
-              <div>
-                <p class="font-semibold text-gray-800">Response Time</p>
-                <p>Within 1 business day</p>
-              </div>
             </div>
           </div>
         </div>

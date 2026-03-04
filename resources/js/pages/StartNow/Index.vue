@@ -151,7 +151,7 @@ const privacyHref = computed(() => '/legal/privacy')
         </div>
 
         <div class="mt-6 text-center text-xs text-gray-400">
-          Prefer email? <a href="mailto:support@talisman-pay.com" class="text-red-500 hover:underline">support@talisman-pay.com</a>
+          Prefer email? <a href="mailto:info@talisman-pay.com" class="text-red-500 hover:underline">info@talisman-pay.com</a>
         </div>
       </div>
     </div>
